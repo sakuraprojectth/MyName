@@ -6,120 +6,65 @@
     <title>My Resume</title>
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        :root {
-            --primary-color: #2c3e50;
-            --accent-color: #3498db;
-            --text-color: #333;
-            --bg-color: #f4f7f6;
-            --white: #ffffff;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Sarabun', sans-serif; background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
-        
-        /* Layout */
-        .resume-container {
-            max-width: 900px; margin: 40px auto; background: var(--white);
-            box-shadow: 0 0 20px rgba(0,0,0,0.1); display: grid;
-            grid-template-columns: 1fr 2fr; min-height: 29.7cm;
-        }
-
-        /* Sidebar */
-        .left-column { background-color: var(--primary-color); color: var(--white); padding: 30px; text-align: center; }
-        .profile-img { width: 150px; height: 150px; border-radius: 50%; border: 5px solid rgba(255,255,255,0.2); object-fit: cover; margin-bottom: 20px; }
-        .left-column h2 { font-size: 1.2rem; text-transform: uppercase; margin: 30px 0 20px; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 10px; }
-        .contact-info p, .skills ul li { text-align: left; margin-bottom: 15px; font-size: 0.9rem; list-style: none; }
-        .contact-info i { margin-right: 10px; width: 20px; text-align: center; }
-        
-        /* Skill Bar */
-        .skill-bar { background: rgba(255,255,255,0.2); height: 6px; border-radius: 3px; margin-top: 5px; }
-        .skill-level { background: var(--accent-color); height: 100%; border-radius: 3px; }
-
-        /* Main Content */
-        .right-column { padding: 40px; }
-        .header-name h1 { font-size: 2.5rem; color: var(--primary-color); text-transform: uppercase; line-height: 1.2; }
-        .header-name span { color: var(--accent-color); font-size: 1.2rem; font-weight: 600; letter-spacing: 2px; display: block; margin: 5px 0 30px; }
-        .section-title { color: var(--primary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 20px; text-transform: uppercase; font-weight: 700; }
-        .job-item, .edu-item { margin-bottom: 25px; }
-        .job-title { font-weight: 700; font-size: 1.1rem; }
-        .company-date { font-style: italic; color: #666; margin-bottom: 10px; font-size: 0.9rem; }
-
-        /* Responsive & Print */
-        @media (max-width: 768px) { .resume-container { grid-template-columns: 1fr; margin: 20px; } }
-        @media print {
-            body { background: white; }
-            .resume-container { margin: 0; box-shadow: none; width: 100%; }
-            .action-btn { display: none; }
-            -webkit-print-color-adjust: exact; print-color-adjust: exact; 
-        }
-        
-        /* Button Style */
-        .action-btn {
-            position: fixed; bottom: 30px; right: 30px; background: var(--accent-color);
-            color: white; border: none; padding: 15px 25px; border-radius: 50px;
-            font-size: 1rem; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            transition: 0.3s; display: flex; align-items: center; gap: 10px;
-        }
-        .action-btn:hover { transform: translateY(-3px); background: #2980b9; }
-    </style>
 </head>
 <body>
     <div class="resume-container">
         <aside class="left-column">
-            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+            <img src="p1.png" alt="Profile Picture" class="profile-img">
             <div class="contact-info">
                 <h2>ข้อมูลติดต่อ</h2>
-                <p><i class="fas fa-phone"></i> 081-234-5678</p>
-                <p><i class="fas fa-envelope"></i> email@example.com</p>
-                <p><i class="fas fa-map-marker-alt"></i> กรุงเทพมหานคร</p>
+                <p><i class="fas fa-phone"></i> 0945207092</p>
+                <p><i class="fas fa-envelope"></i> cnk@outlook.co.th (สมมุติ)</p>
+                <p><i class="fas fa-map-marker-alt"></i> พระนครศรีอยุธยา</p>
             </div>
             <div class="skills">
                 <h2>ทักษะ (Skills)</h2>
                 <ul>
                     <li>HTML / CSS <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div></li>
-                    <li>JavaScript <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div></li>
+                    <li>JavaScript <div class="skill-bar"><div class="skill-level" style="width: 50%"></div></div></li>
+                    <li>PHP <div class="skill-bar"><div class="skill-level" style="width: 40%"></div></div></li>
+                    <li>Typescript / Nodejs <div class="skill-bar"><div class="skill-level" style="width: 37%"></div></div></li>
                 </ul>
             </div>
         </aside>
 
         <main class="right-column">
             <header class="header-name">
-                <h1>ชื่อ นามสกุล</h1>
-                <span>Web Developer</span>
+                <h1>ชนกันต์ ทุมมา</h1>
+                <span>นักศึกษา</span>
             </header>
 
             <section>
                 <h3 class="section-title">เกี่ยวกับฉัน</h3>
-                <p>นักพัฒนาเว็บที่มีความกระตือรือร้นในการสร้างเว็บไซต์ที่สวยงามและใช้งานง่าย</p>
+                <p>นักศึกษาจบใหม่จากวิทยาลัยเทคนิคท่าหลวงซิเมนต์ไทยอนุสรณ์</p>
             </section>
 
             <section>
                 <h3 class="section-title">ประสบการณ์ทำงาน</h3>
                 <div class="job-item">
-                    <div class="job-title">Senior Web Developer</div>
-                    <div class="company-date">บริษัท เทค จำกัด | 2021 - ปัจจุบัน</div>
-                    <ul><li>พัฒนาเว็บไซต์ E-commerce</li></ul>
+                    <div class="job-title">IT Support (ฝึกงาน)</div>
+                    <div class="company-date">บริษัท พี เอส ที คอนกรีต จำกัด | พฤษภาคม 2023 - สิงหาคม 2023</div>
+                    <ul><li>แก้ปัญหาเบื้องกับพนักงานในบริษัท</li></ul>
+                </div>
+                <div class="job-item">
+                    <div class="job-title">IT Support (ฝึกงาน)</div>
+                    <div class="company-date">บริษัท พี เอส ที คอนกรีต จำกัด | พฤษภาคม 2025 - สิงหาคม 2025</div>
+                    <ul><li>แก้ปัญหาเบื้องกับพนักงานในบริษัท</li></ul>
                 </div>
             </section>
 
             <section>
                 <h3 class="section-title">การศึกษา</h3>
                 <div class="edu-item">
-                    <div class="job-title">ปริญญาตรี วิทยาการคอมพิวเตอร์</div>
-                    <div class="company-date">มหาวิทยาลัยเทคโนโลยี | 2015 - 2019</div>
+                    <div class="job-title">มัธยมศึกษา</div>
+                    <div class="company-date">โรงเรียนเสาไห้วิมลวิทยานุกูล | 2018 - 2021</div>
+                </div>
+                <div class="edu-item">
+                    <div class="job-title">มัธยมศึกษา</div>
+                    <div class="company-date">วิทยาลัยเทคนิคท่าหลวงซิเมนต์ไทยอนุสรณ์ | 2021 - ปัจจุบัน</div>
                 </div>
             </section>
         </main>
     </div>
-    <button class="action-btn" onclick="downloadPDF()">
-        <i class="fas fa-print"></i> พิมพ์ / บันทึก PDF
-    </button>
-
-    <script>
-        function downloadPDF() {
-            window.print();
-        }
-        console.log("Resume Loaded Successfully");
-    </script>
 </body>
 </html>
